@@ -20,7 +20,7 @@ struct FinnhubSearchResponse: Codable {
 
 class StockAPIService {
     static let shared = StockAPIService()
-    private let apiKey = "cur8em9r01qifa4u2prgcur8em9r01qifa4u2ps0"
+    private let apiKey = "..." // no longer valid.
     private let searchURL = "https://finnhub.io/api/v1/search"
 
     func searchStocks(query: String, completion: @escaping (Result<[StockSearchResult], Error>) -> Void) {
